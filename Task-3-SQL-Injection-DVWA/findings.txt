@@ -1,0 +1,18 @@
+SQL Injection vulnerability was successfully demonstrated on DVWA at low security level.
+
+Findings:
+- The application failed to properly sanitize user input.
+- SQL queries were vulnerable to malicious injection payloads.
+- Authentication bypass and database information disclosure were possible.
+- User input validation and parameterized queries were missing.
+
+Impact:
+- Attackers may gain unauthorized access.
+- Sensitive database information can be exposed.
+- Authentication mechanisms can be bypassed.
+
+Recommendations:
+- Use prepared statements and parameterized queries.
+- Validate and sanitize all user inputs.
+- Implement least privilege access for database users.
+- Deploy Web Application Firewall (WAF).
