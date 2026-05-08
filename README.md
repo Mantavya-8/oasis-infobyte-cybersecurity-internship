@@ -29,4 +29,4 @@ This repository contains completed cybersecurity internship tasks for the Oasis 
 - Kali Linux
 
 ## Author
-Your Name
+Mantavya Patel
